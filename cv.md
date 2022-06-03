@@ -22,13 +22,15 @@
 
 *******
 ## **Code examples**
-def reverse_words(text):\
-    p = ''\
-    mas = text.split(' ')\
-    for i in mas:\
-        p = p + i[::-1] + ' '\
-    return p[:-1]\
+```
+def reverse_words(text):
+    p = ''
+    mas = text.split(' ')
+    for i in mas:
+        p = p + i[::-1] + ' '
+    return p[:-1]
 
+```
 *******
 
 ## **Experience**
