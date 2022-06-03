@@ -22,12 +22,12 @@
 
 *******
 ## **Code examples**
-def reverse_words(text):
-    p = ''
-    mas = text.split(' ')
-    for i in mas:
-        p = p + i[::-1] + ' '
-    return p[:-1]
+def reverse_words(text):\
+    p = ''\
+    mas = text.split(' ')\
+    for i in mas:\
+        p = p + i[::-1] + ' '\
+    return p[:-1]\
 
 *******
 
@@ -38,13 +38,13 @@ Made three responsive web sites with HTML and CSS from .psd maket.
 ## **Education**
 * #### **Lyceum of information technologies**
 * #### **National Aviation University**
-  * *The Faculty of Computer Engineering (2020-now)*
+  * *The Faculty of Computer Engineering (2020-nowadays)*
 * ### **Courses**
   * #### [*FreeCodeCamp course HTML & CSS course*](https://www.freecodecamp.org/learn)
   * #### [*The Rolling Scopes School*](https://rs.school/) 
 
 *******
 ## **Languages**
-* #### [English (B2)]
+* #### English (B2)
 * #### Russian (Native)
 * #### Ukrainian (Native)    
