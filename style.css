@@ -253,3 +253,49 @@ footer h6 {
 .contacts_under a:hover {
     color:rgb(223, 167, 18)
 }
+@media screen and (max-width: 735px) {
+    nav {
+        display: none;
+        visibility: hidden;
+    }
+    .helper{
+        display: block;
+    }
+    .header_myname_h1h2 {
+        padding-top: 0;
+        margin-bottom: 15vh;
+    }
+    .header_photo {
+        display: none;
+        visibility: hidden;
+    }
+    .phone_photo img {
+        margin-top: 25vh;
+    }
+    .header_myname {
+        width: 100%;
+    }
+    .code_example {
+        display: none;
+        visibility: hidden;
+    }
+
+}
+@media screen and (max-width: 325px) {
+    .skills_first_ul{
+        padding-left: 20px;
+    }
+    .skills_wrapperul{
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width: 736px) {
+    .phone_my_contacts {
+        display: none;
+        visibility: hidden;
+    }
+    .phone_photo img {
+        display: none;
+        visibility: hidden;
+    }
+}
