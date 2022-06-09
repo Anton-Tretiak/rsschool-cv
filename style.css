@@ -183,3 +183,73 @@ main{
     padding: 1em;
     text-align: center;
 }
+
+footer{
+    height: auto;
+    width: 100%;
+    background-color: rgb(51,52,52);
+    color: rgb(164, 165, 166); 
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+footer ul li {
+    padding: 1.5em 0 1em 0;
+}
+footer ul a{
+
+    color: rgb(164, 165, 166); 
+}
+.footer_git_link img {
+    width: 30px;
+}
+.footer_rss_link img {
+    width: 80px;
+}
+.footer_inst_link img {
+    width: 30px;
+}
+footer h6 {
+    margin: 0;
+    padding-bottom: 0.2em;
+}
+
+.helper{
+    display: none;
+}
+.phone_my_contacts {
+    width: 100%;
+    height: auto;
+    background-color: rgb(44, 44, 44);
+}
+.phone_my_contacts h2 {
+    margin: 0;
+    color: rgb(223, 167, 18);
+    padding: 1em;
+    text-align: center;
+}
+.contacts_main_ul {
+    list-style: circle;
+    margin: 0;
+    padding-bottom: 5%;
+}
+.phone_my_contacts a {
+    text-decoration: none;
+    color: rgb(164, 165, 166);
+}
+.contacts_under{
+     list-style: none;
+}
+.contacts_under a:hover {
+    color:rgb(223, 167, 18)
+}
