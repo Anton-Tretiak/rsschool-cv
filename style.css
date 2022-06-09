@@ -94,14 +94,14 @@ main{
     text-align: center;
 
 }
-.about_me > h2 {
+.about_me  h2 {
     margin: 0;
-    padding: 1em;
+    padding: 1em 1em 0.5em 1em;
     color:rgb(223, 167, 18);
 }
-.about_me > p {
+.about_me  p {
     margin: 0;
-    padding: 2em;
+    padding: 1em;
 }
 .skills {
     width: 100%;
