@@ -152,10 +152,34 @@ main{
     display: block;
     padding: 20px;
 }
-.education {
+.projects {
     width: 100%;
     height: auto;
     background-color: rgb(51, 52, 52);
+    text-align: center;
+    padding: 1em;
+}
+.projects h2 {
+    margin: 0;
+    color: rgb(223, 167, 18);
+    padding: 0.5em;
+    text-align: center;
+}
+.projects p {
+    margin: 0;
+    padding: .5em;
+}
+.projects a {
+    color: rgb(164, 165, 166);
+    text-decoration: none;
+}
+.projects a:hover {
+    color:rgb(244, 244, 244);
+}
+.education {
+    width: 100%;
+    height: auto;
+    background-color: rgb(44, 44, 44);
 }
 .education h2 {
     margin: 0;
@@ -175,7 +199,7 @@ main{
 .languages {
     width: 100%;
     height: auto;
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(51, 52, 52);
 }
 .languages h2 {
     margin: 0;
@@ -187,7 +211,7 @@ main{
 footer{
     height: auto;
     width: 100%;
-    background-color: rgb(51,52,52);
+    background-color: rgb(44, 44, 44);
     color: rgb(164, 165, 166); 
     font-family: Poppins, sans-serif;
     text-align: center;
