@@ -1,0 +1,334 @@
+html {
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+}
+header {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(94, 91, 91);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.header_photo {
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_photo img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius:70%; 
+}
+.header_myname {
+    width: 60%;
+    height: 100vh;
+    background-color: rgb(51, 52, 52);
+    color: rgb(164, 165, 166);
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.header_myname_h1h2 {
+    padding-top: 12vh;
+}
+.phone_photo img {
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+    border-radius: 70%;
+    margin-top: 25%;
+}
+.name_surname, .header_specialization, .city {
+    margin: 0;
+}
+.header_myname span {
+    color: rgb(223, 167, 18);
+}
+.header_myname nav ul {
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    width: 70%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header_myname nav ul li{
+    list-style: none;
+    padding: 20px 10px 0 0;
+    border-top: 1px solid rgb(164, 165, 166);
+}
+.header_myname nav ul li p {
+    margin: 0;
+}
+.header_mail_link {
+    color: rgb(223, 167, 18);
+    text-decoration: none;
+    transition: 0.2s;
+}
+.header_mail_link:hover {
+    color: #fff;
+}
+.header_mail_link:visited {
+    color: rgb(164, 165, 166);
+}
+main{
+    width: 100%;
+    color: rgb(164, 165, 166);
+    font-family: Poppins, sans-serif;
+}
+.about_me {
+    width: 100%;
+    height: auto;
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+
+}
+.about_me  h2 {
+    margin: 0;
+    padding: 1em 1em 0.5em 1em;
+    color:rgb(223, 167, 18);
+}
+.about_me  p {
+    margin: 0;
+    padding: 1em;
+}
+.skills {
+    width: 100%;
+    height: auto;
+    background-color: rgb(51, 52, 52);
+}
+.skills > h2 {
+    margin: 0;
+    color: rgb(223, 167, 18);
+    padding: 1em;
+    text-align: center;
+}
+.skills  ul {
+    list-style: circle;
+    padding-bottom: 2em;
+}
+.skills_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.code_example {
+    width: 100%;
+    height: auto;
+    background-color: rgb(44, 44, 44);
+}
+.code_example h2 {
+    margin: 0;
+    color: rgb(223, 167, 18);
+    padding: 1em;
+    text-align: center;
+}
+.code_example .code_example_wrapper {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+.code_example pre code {
+    height: auto;
+    width: 300px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 0.5em;
+    display: block;
+    padding: 20px;
+}
+.projects {
+    width: 100%;
+    height: auto;
+    background-color: rgb(51, 52, 52);
+    text-align: center;
+    padding: 1em;
+}
+.projects h2 {
+    margin: 0;
+    color: rgb(223, 167, 18);
+    padding: 0.5em;
+    text-align: center;
+}
+.projects p {
+    margin: 0;
+    padding: .5em;
+}
+.projects a {
+    color: rgb(164, 165, 166);
+    text-decoration: none;
+}
+.projects a:hover {
+    color:rgb(244, 244, 244);
+}
+.education {
+    width: 100%;
+    height: auto;
+    background-color: rgb(44, 44, 44);
+}
+.education h2 {
+    margin: 0;
+    color: rgb(223, 167, 18);
+    padding: 1em;
+    text-align: center;
+}
+.education_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+    padding-right: 3%;
+}
+.link_to_cert{
+    color:rgb(223, 167, 18);
+    text-decoration: none;
+    transition: 0.2s;
+}
+.link_to_cert:hover{
+    color:rgb(244, 244, 244);
+}
+.languages {
+    width: 100%;
+    height: auto;
+    background-color: rgb(51, 52, 52);
+}
+.languages h2 {
+    margin: 0;
+    color: rgb(223, 167, 18);
+    padding: 1em;
+    text-align: center;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    color: rgb(164, 165, 166); 
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+footer ul li {
+    padding: 1.5em 0 1em 0;
+}
+footer ul a{
+
+    color: rgb(164, 165, 166); 
+}
+.footer_git_link img {
+    width: 30px;
+}
+.footer_rss_link img {
+    width: 80px;
+}
+.footer_inst_link img {
+    width: 30px;
+}
+footer h6 {
+    margin: 0;
+    padding-bottom: 0.2em;
+}
+
+.helper{
+    display: none;
+}
+.phone_my_contacts {
+    width: 100%;
+    height: auto;
+    background-color: rgb(44, 44, 44);
+}
+.phone_my_contacts h2 {
+    margin: 0;
+    color: rgb(223, 167, 18);
+    padding: 1em;
+    text-align: center;
+}
+.contacts_main_ul {
+    list-style: circle;
+    margin: 0;
+    padding-bottom: 5%;
+}
+.phone_my_contacts a {
+    text-decoration: none;
+    color: rgb(164, 165, 166);
+}
+.contacts_under{
+     list-style: none;
+}
+.contacts_under a:hover {
+    color:rgb(223, 167, 18)
+}
+@media screen and (max-width: 735px) {
+    nav {
+        display: none;
+        visibility: hidden;
+    }
+    .helper{
+        display: block;
+    }
+    .header_myname_h1h2 {
+        padding-top: 0;
+        margin-bottom: 15vh;
+    }
+    .header_photo {
+        display: none;
+        visibility: hidden;
+    }
+    .phone_photo img {
+        margin-top: 25vh;
+    }
+    .header_myname {
+        width: 100%;
+    }
+    .code_example {
+        display: none;
+        visibility: hidden;
+    }
+
+}
+@media screen and (max-width: 325px) {
+    .skills_first_ul{
+        padding-left: 20px;
+    }
+    .skills_wrapperul{
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width: 736px) {
+    .phone_my_contacts {
+        display: none;
+        visibility: hidden;
+    }
+    .phone_photo img {
+        display: none;
+        visibility: hidden;
+    }
+}

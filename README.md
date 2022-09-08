@@ -1,1 +1,1 @@
-https://anton-tretiak.github.io/rsschool-cv/ 
+https://anton-tretiak.github.io/rsschool-cv/
